@@ -8,1046 +8,7 @@
 	<meta name="robots" content="index,follow" />
 	<link rel='stylesheet' id='elementor-frontend-css' href='data/frontend.min.css' type='text/css' media='all' />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-	<style id='elementor-frontend-inline-css' type='text/css'>
-		.elementor-kit-20 {
-			--e-global-color-primary: #6EC1E4;
-			--e-global-color-secondary: #54595F;
-			--e-global-color-text: #7A7A7A;
-			--e-global-color-accent: #61CE70;
-			--e-global-color-5a33be2: #FFFFFF;
-			--e-global-color-534792a: #8B0000;
-			--e-global-typography-primary-font-family: "Roboto";
-			--e-global-typography-primary-font-weight: 600;
-			--e-global-typography-secondary-font-family: "Roboto Slab";
-			--e-global-typography-secondary-font-weight: 400;
-			--e-global-typography-text-font-family: "Roboto";
-			--e-global-typography-text-font-weight: 400;
-			--e-global-typography-accent-font-family: "Roboto";
-			--e-global-typography-accent-font-weight: 500;
-		}
-
-		.elementor-section.elementor-section-boxed>.elementor-container {
-			max-width: 1140px;
-		}
-
-		.e-container {
-			--container-max-width: 1140px;
-		}
-
-		.elementor-widget:not(:last-child) {
-			margin-bottom: 20px;
-		}
-
-		.elementor-element {
-			--widgets-spacing: 20px;
-		}
-
-			{}
-
-		h1.entry-title {
-			display: var(--page-title-display);
-		}
-
-		@media(max-width:1024px) {
-			.elementor-section.elementor-section-boxed>.elementor-container {
-				max-width: 1024px;
-			}
-
-			.e-container {
-				--container-max-width: 1024px;
-			}
-		}
-
-		@media(max-width:767px) {
-			.elementor-section.elementor-section-boxed>.elementor-container {
-				max-width: 767px;
-			}
-
-			.e-container {
-				--container-max-width: 767px;
-			}
-		}
-
-		.elementor-widget-heading .elementor-heading-title {
-			color: var(--e-global-color-primary);
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-image .widget-image-caption {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-text-editor {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-			background-color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
-		.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
-			color: var(--e-global-color-primary);
-			border-color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-button .elementor-button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-divider {
-			--divider-color: var(--e-global-color-secondary);
-		}
-
-		.elementor-widget-divider .elementor-divider__text {
-			color: var(--e-global-color-secondary);
-			font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-secondary-font-weight);
-		}
-
-		.elementor-widget-divider.elementor-view-stacked .elementor-icon {
-			background-color: var(--e-global-color-secondary);
-		}
-
-		.elementor-widget-divider.elementor-view-framed .elementor-icon,
-		.elementor-widget-divider.elementor-view-default .elementor-icon {
-			color: var(--e-global-color-secondary);
-			border-color: var(--e-global-color-secondary);
-		}
-
-		.elementor-widget-divider.elementor-view-framed .elementor-icon,
-		.elementor-widget-divider.elementor-view-default .elementor-icon svg {
-			fill: var(--e-global-color-secondary);
-		}
-
-		.elementor-widget-image-box .elementor-image-box-title {
-			color: var(--e-global-color-primary);
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-image-box .elementor-image-box-description {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-icon.elementor-view-stacked .elementor-icon {
-			background-color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon.elementor-view-framed .elementor-icon,
-		.elementor-widget-icon.elementor-view-default .elementor-icon {
-			color: var(--e-global-color-primary);
-			border-color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon.elementor-view-framed .elementor-icon,
-		.elementor-widget-icon.elementor-view-default .elementor-icon svg {
-			fill: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
-			background-color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon-box.elementor-view-framed .elementor-icon,
-		.elementor-widget-icon-box.elementor-view-default .elementor-icon {
-			fill: var(--e-global-color-primary);
-			color: var(--e-global-color-primary);
-			border-color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon-box .elementor-icon-box-title {
-			color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon-box .elementor-icon-box-title,
-		.elementor-widget-icon-box .elementor-icon-box-title a {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-icon-box .elementor-icon-box-description {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-star-rating .elementor-star-rating__title {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-image-gallery .gallery-item .gallery-caption {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
-			border-color: var(--e-global-color-text);
-		}
-
-		.elementor-widget-icon-list .elementor-icon-list-icon i {
-			color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon-list .elementor-icon-list-icon svg {
-			fill: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-icon-list .elementor-icon-list-text {
-			color: var(--e-global-color-secondary);
-		}
-
-		.elementor-widget-icon-list .elementor-icon-list-item>.elementor-icon-list-text,
-		.elementor-widget-icon-list .elementor-icon-list-item>a {
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-counter .elementor-counter-number-wrapper {
-			color: var(--e-global-color-primary);
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-counter .elementor-counter-title {
-			color: var(--e-global-color-secondary);
-			font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-secondary-font-weight);
-		}
-
-		.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
-			background-color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-progress .elementor-title {
-			color: var(--e-global-color-primary);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-testimonial .elementor-testimonial-content {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-testimonial .elementor-testimonial-name {
-			color: var(--e-global-color-primary);
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-testimonial .elementor-testimonial-job {
-			color: var(--e-global-color-secondary);
-			font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-secondary-font-weight);
-		}
-
-		.elementor-widget-tabs .elementor-tab-title,
-		.elementor-widget-tabs .elementor-tab-title a {
-			color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-tabs .elementor-tab-title.elementor-active,
-		.elementor-widget-tabs .elementor-tab-title.elementor-active a {
-			color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-tabs .elementor-tab-title {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-tabs .elementor-tab-content {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-accordion .elementor-accordion-icon,
-		.elementor-widget-accordion .elementor-accordion-title {
-			color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-accordion .elementor-accordion-icon svg {
-			fill: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-accordion .elementor-active .elementor-accordion-icon,
-		.elementor-widget-accordion .elementor-active .elementor-accordion-title {
-			color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-accordion .elementor-active .elementor-accordion-icon svg {
-			fill: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-accordion .elementor-accordion-title {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-accordion .elementor-tab-content {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-toggle .elementor-toggle-title,
-		.elementor-widget-toggle .elementor-toggle-icon {
-			color: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-toggle .elementor-toggle-icon svg {
-			fill: var(--e-global-color-primary);
-		}
-
-		.elementor-widget-toggle .elementor-tab-title.elementor-active a,
-		.elementor-widget-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon {
-			color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-toggle .elementor-toggle-title {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-toggle .elementor-tab-content {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-alert .elementor-alert-title {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-alert .elementor-alert-description {
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-button_lp a.elementor-button,
-		.elementor-widget-button_lp .elementor-button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-button_whatsapp a.elementor-button,
-		.elementor-widget-button_whatsapp .elementor-button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-image_lp .widget-image-caption {
-			color: var(--e-global-color-text);
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-widget-button_video a.elementor-button,
-		.elementor-widget-button_video .elementor-button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-countdown_simple .elementor-countdown-simple {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-countdown_evergreen .elementor-countdown-simple {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-optin .elementor-lp-form-wrapper label {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-optin .elementor-lp-form-wrapper input[type="text"],
-		.elementor-widget-optin .elementor-lp-form-wrapper input[type="email"],
-		.elementor-widget-optin .elementor-lp-form-wrapper textarea {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-optin .elementor-lp-form-wrapper input[type="submit"],
-		.elementor-widget-optin .elementor-lp-form-wrapper button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-optin_2steps a.elementor-button,
-		.elementor-widget-optin_2steps .elementor-button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-popup-form- .elementor-lp-form-wrapper label {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-popup-form- .elementor-lp-form-wrapper input[type="text"],
-		.elementor-popup-form- .elementor-lp-form-wrapper input[type="email"],
-		.elementor-popup-form- .elementor-lp-form-wrapper textarea {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-popup-form- .elementor-lp-form-wrapper input[type="submit"],
-		.elementor-popup-form- .elementor-lp-form-wrapper button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-lp_slider_image .lp-slider-wrapper .lp-slide-image-caption {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-lp_slider_content .lp-slider-heading {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-lp_slider_content .lp-slider-description {
-			font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-secondary-font-weight);
-		}
-
-		.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper label {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper input[type="text"],
-		.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper input[type="email"],
-		.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper textarea {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper input[type="submit"],
-		.elementor-widget-lp_whatsapp_form .elementor-lp-form-wrapper button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-lp_whatsapp_popup a.elementor-button,
-		.elementor-widget-lp_whatsapp_popup .elementor-button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-popup-form- .elementor-lp-form-wrapper input[type="text"],
-		.elementor-popup-form- .elementor-lp-form-wrapper input[type="email"],
-		.elementor-popup-form- .elementor-lp-form-wrapper textarea,
-		.elementor-popup-form- .elementor-lp-form-wrapper select {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_contact_form .elementor-lp-form-wrapper label {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_contact_form .elementor-lp-form-wrapper input[type="text"],
-		.elementor-widget-lp_contact_form .elementor-lp-form-wrapper input[type="email"],
-		.elementor-widget-lp_contact_form .elementor-lp-form-wrapper textarea {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_contact_form .elementor-lp-form-wrapper input[type="submit"],
-		.elementor-widget-lp_contact_form .elementor-lp-form-wrapper button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper label {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper input[type="text"],
-		.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper input[type="email"],
-		.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper textarea {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper input[type="submit"],
-		.elementor-widget-lp_confirmation_form .elementor-lp-form-wrapper button {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-			background-color: var(--e-global-color-accent);
-		}
-
-		.elementor-widget-lp_navigation_menu .lp-navmenu-items li a,
-		.elementor-widget-lp_navigation_menu .lp-navmenu-items li a:visited {
-			font-family: var(--e-global-typography-accent-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-accent-font-weight);
-		}
-
-		.elementor-widget-lp_posts_grid .lp-posts-grid-wrapper li h4 a {
-			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-primary-font-weight);
-		}
-
-		.elementor-widget-lp_posts_grid .lp-posts-grid-wrapper li p {
-			font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-secondary-font-weight);
-		}
-
-		.elementor-widget-text-path {
-			font-family: var(--e-global-typography-text-font-family), Sans-serif;
-			font-weight: var(--e-global-typography-text-font-weight);
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-61840a6a>.elementor-container {
-			max-width: 650px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-61840a6a:not(.elementor-motion-effects-element-type-background),
-		.elementor-2454 .elementor-element.elementor-element-61840a6a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-color: #FFFFFF;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-61840a6a {
-			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-61840a6a>.elementor-background-overlay {
-			transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-562174aa {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-562174aa .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 25px;
-			font-weight: 600;
-			line-height: 1.3em;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-58ea06d1 {
-			font-family: "Roboto", Sans-serif;
-			font-size: 15px;
-			font-weight: 400;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-25f7e5c8>.elementor-container {
-			max-width: 650px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-25f7e5c8:not(.elementor-motion-effects-element-type-background),
-		.elementor-2454 .elementor-element.elementor-element-25f7e5c8>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-color: #FFFFFF;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-25f7e5c8 {
-			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-25f7e5c8>.elementor-background-overlay {
-			transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-1af70310 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-1af70310 .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 25px;
-			font-weight: 600;
-			line-height: 1.5em;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-52e61fdc .elementor-button {
-			background-color: #237E00;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4532a56 .elementor-button {
-			background-color: #FFA908;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-efa9c75 .elementor-button {
-			background-color: #3DD303;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-1af9754d {
-			font-family: "Roboto", Sans-serif;
-			font-size: 15px;
-			font-weight: 400;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2bf9709f {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2bf9709f .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7e62601 .elementor-icon-wrapper {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7e62601.elementor-view-stacked .elementor-icon {
-			background-color: #000000;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7e62601.elementor-view-framed .elementor-icon,
-		.elementor-2454 .elementor-element.elementor-element-7e62601.elementor-view-default .elementor-icon {
-			color: #000000;
-			border-color: #000000;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7e62601.elementor-view-framed .elementor-icon,
-		.elementor-2454 .elementor-element.elementor-element-7e62601.elementor-view-default .elementor-icon svg {
-			fill: #000000;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7e62601 .elementor-icon i,
-		.elementor-2454 .elementor-element.elementor-element-7e62601 .elementor-icon svg {
-			transform: rotate(0deg);
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4c138577>.elementor-container {
-			max-width: 650px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4c138577:not(.elementor-motion-effects-element-type-background),
-		.elementor-2454 .elementor-element.elementor-element-4c138577>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-color: #FFFFFF;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4c138577 {
-			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4c138577>.elementor-background-overlay {
-			transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7868b4f2 .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2794633e {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2794633e .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-14e46e45 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-14e46e45 .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 20px;
-			font-weight: 600;
-			line-height: 1.5em;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-78d4085b {
-			font-family: "Roboto", Sans-serif;
-			font-size: 15px;
-			font-weight: 400;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7421f9c1 .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4e25a442 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4e25a442 .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-370146e3 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-370146e3 .elementor-heading-title {
-			color: #FFFFFF;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-370146e3>.elementor-widget-container {
-			background-color: #000000;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4636ec01 .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-207f672c>.elementor-container {
-			max-width: 650px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-207f672c:not(.elementor-motion-effects-element-type-background),
-		.elementor-2454 .elementor-element.elementor-element-207f672c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-color: #000000;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-207f672c {
-			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-207f672c>.elementor-background-overlay {
-			transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-3db346bd .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-51085a9c {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-51085a9c .elementor-heading-title {
-			color: #FFFFFF;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-3ae82af9 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-3ae82af9 .elementor-heading-title {
-			color: #FFFFFF;
-			font-family: "Roboto", Sans-serif;
-			font-size: 52px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7c0f62ac {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-7c0f62ac .elementor-heading-title {
-			color: #FFFFFF;
-			font-family: "Roboto", Sans-serif;
-			font-size: 52px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-5cc1b808 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-5cc1b808 .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 45px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-5cc1b808>.elementor-widget-container {
-			background-color: #FFFFFF;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-5f8df928 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-5f8df928 .elementor-heading-title {
-			color: #FFFFFF;
-			font-family: "Roboto", Sans-serif;
-			font-size: 45px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-5f8df928>.elementor-widget-container {
-			background-color: #F60000;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4900b235 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4900b235 .elementor-heading-title {
-			color: #FFFFFF;
-			font-family: "Roboto", Sans-serif;
-			font-size: 45px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4900b235>.elementor-widget-container {
-			background-color: #F60000;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-116181af .elementor-countdown-simple {
-			color: #FFFFFF;
-			font-family: "Roboto", Sans-serif;
-			font-size: 35px;
-			font-weight: 500;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-72d122a6 {
-			font-family: "Roboto", Sans-serif;
-			font-size: 15px;
-			font-weight: 400;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2990bcc1 .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-44602e69>.elementor-container {
-			max-width: 400px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-44602e69:not(.elementor-motion-effects-element-type-background),
-		.elementor-2454 .elementor-element.elementor-element-44602e69>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-color: #FFF9CA;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-44602e69 {
-			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-44602e69>.elementor-background-overlay {
-			transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-6557b97e .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-10720a17 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-10720a17 .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2f096d6 .elementor-button {
-			background-color: #237E00;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-77e1cec .elementor-button {
-			background-color: #FFA908;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-8f0237c .elementor-button {
-			background-color: #3DD303;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-1ba830e7 {
-			font-family: "Roboto", Sans-serif;
-			font-size: 15px;
-			font-weight: 400;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-48f1abb .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-3c1480a>.elementor-container {
-			max-width: 1025px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-3c1480a:not(.elementor-motion-effects-element-type-background),
-		.elementor-2454 .elementor-element.elementor-element-3c1480a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-color: #FFFFFF;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-3c1480a {
-			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-3c1480a>.elementor-background-overlay {
-			transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-59342fdd .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-72164c92 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-72164c92 .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-5826fd4e .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4ffa1470>.elementor-container {
-			max-width: 1025px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4ffa1470:not(.elementor-motion-effects-element-type-background),
-		.elementor-2454 .elementor-element.elementor-element-4ffa1470>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-color: #FFFFFF;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4ffa1470 {
-			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4ffa1470>.elementor-background-overlay {
-			transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-299d696b {
-			--e-image-carousel-slides-to-show: 1;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-6434c2ab .elementor-spacer-inner {
-			--spacer-size: 10px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-87ce38c {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-87ce38c .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2c64a504 {
-			text-align: center;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2c64a504 .elementor-heading-title {
-			color: #000000;
-			font-family: "Roboto", Sans-serif;
-			font-size: 30px;
-			font-weight: 600;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-4723187c .elementor-spacer-inner {
-			--spacer-size: 50px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2845ca6c {
-			--divider-border-style: solid;
-			--divider-color: #000;
-			--divider-border-width: 1px;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2845ca6c .elementor-divider-separator {
-			width: 100%;
-		}
-
-		.elementor-2454 .elementor-element.elementor-element-2845ca6c .elementor-divider {
-			padding-top: 15px;
-			padding-bottom: 15px;
-		}
-
-		@media(max-width:767px) {
-			.elementor-2454 .elementor-element.elementor-element-562174aa .elementor-heading-title {
-				font-size: 28px;
-				line-height: 1.3em;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-58ea06d1 {
-				font-size: 13px;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-1af70310 .elementor-heading-title {
-				font-size: 32px;
-				line-height: 1em;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-1af9754d {
-				font-size: 13px;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-14e46e45 .elementor-heading-title {
-				font-size: 16px;
-				line-height: 1em;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-78d4085b {
-				font-size: 13px;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-5f8df928 .elementor-heading-title {
-				font-size: 40px;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-72d122a6 {
-				font-size: 13px;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-1ba830e7 {
-				font-size: 13px;
-			}
-
-			.elementor-2454 .elementor-element.elementor-element-87ce38c .elementor-heading-title {
-				font-size: 20px;
-				line-height: 1.1em;
-			}
-		}
-	</style>
+	<link rel='stylesheet' href='frontend.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='landingpress-css' href='data/style.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.5.9' type='text/css' media='all' />
 	<script type='text/javascript' src='data/jquery.js' id='jquery-core-js'></script>
@@ -1095,14 +56,7 @@
 																			<div class="elementor-image"> <img width="500" height="500" src="images/good1.jpg" /> </div>
 																		</div>
 																	</div>
-																	<div
-																		class="elementor-element elementor-element-58ea06d1 elementor-widget elementor-widget-text-editor">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-text-editor elementor-clearfix">
-																				<p style="text-align: center;">PROMO SCROLL KEBAWAH YA</p>
-																			</div>
-																		</div>
-																	</div>
+																	
 																</div>
 															</div>
 														</div>
@@ -1115,17 +69,20 @@
 														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49ac25da" data-id="49ac25da" data-element_type="column">
 															<div class="elementor-column-wrap elementor-element-populated">
 																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-10079a1b elementor-widget elementor-widget-image" data-id="10079a1b" data-element_type="widget" data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image"> <img width="500" height="500" src="images/6.jpg" /> </div>
-																		</div>
-																	</div>
+																	
 																	<div class="elementor-element elementor-element-1af70310 elementor-widget elementor-widget-heading"
 																		data-id="1af70310" data-element_type="widget"
 																		data-widget_type="heading.default">
+																		<div class="elementor-element elementor-element-1ba830e7 elementor-widget elementor-widget-text-editor">
+																			<div class="elementor-widget-container">
+																				<div class="elementor-text-editor elementor-clearfix">
+																					<p style="text-align: center;">PROMO SCROLL KEBAWAH YA</p>
+																				</div>
+																			</div>
+																		</div>
+																		
 																		<div class="elementor-widget-container">
-																			<h2
-																				class="elementor-heading-title elementor-size-default">
+																			<h2 class="elementor-heading-title elementor-size-default">
 																				HARI INI TERAKHIR MASIH DISC 40% TANPA
 																				SYARAT</h2>
 																		</div>
@@ -1148,250 +105,53 @@
 																	
 																	
 																	
-																	<div class="elementor-element elementor-element-2bf9709f elementor-widget elementor-widget-heading"
-																		data-id="2bf9709f" data-element_type="widget"
-																		data-widget_type="heading.default">
+																	<div class="elementor-element elementor-element-2bf9709f elementor-widget elementor-widget-heading">
 																		<div class="elementor-widget-container">
 																			<h2
 																				class="elementor-heading-title elementor-size-default">
 																				LIHAT DETAIL</h2>
 																		</div>
-																	</div>
+																	
 																	<div class="elementor-element elementor-element-10079a1b elementor-widget elementor-widget-image" data-id="10079a1b" data-element_type="widget" data-widget_type="image.default">
 																		<div class="elementor-widget-container">
 																			<div class="elementor-image"> <img width="500" height="500" src="images/spek.jpg" /> </div>
 																		</div>
 																	</div>
+																	<div class="elementor-element elementor-element-12d1ff6 elementor-widget elementor-widget-image"
+																		data-id="12d1ff6" data-element_type="widget"
+																		data-widget_type="image.default">
+																		<div class="elementor-widget-container">
+																			<div class="elementor-image">
+																				<a class="elementor-image-link"
+																					href="https://shopee.co.id/AVANDR-LDX-Messenger-Bag-Tas-Kamera-Laptop-Pria-Multifungsi-i.423768203.13005231602?"
+																					target="_blank">
+																					<img width="1500" height="1500"
+																						src="images/DSC00190-copy.jpg" />
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+
+
+
+
+
 																	
-
-
-
-
-
-																	
 																</div>
 															</div>
 														</div>
 													</div>
 												</div>
 											</section>
-											<section
-												class="elementor-section elementor-top-section elementor-element elementor-element-f5ca3ab elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-												data-id="f5ca3ab" data-element_type="section">
-												<div class="elementor-container elementor-column-gap-default">
-													<div class="elementor-row">
-														<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2f7a6730"
-															data-id="2f7a6730" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-2fe0a01c elementor-widget elementor-widget-image"
-																		data-id="2fe0a01c" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image">
-																				<img width="500" height="500"
-																					src="images/8.jpg" />
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2f7a6730"
-															data-id="2f7a6730" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-2fe0a01c elementor-widget elementor-widget-image"
-																		data-id="2fe0a01c" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image">
-																				<img width="500" height="500"
-																					src="images/8.jpg" />
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2f7a6730"
-															data-id="2f7a6730" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-2fe0a01c elementor-widget elementor-widget-image"
-																		data-id="2fe0a01c" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image">
-																				<img width="500" height="500"
-																					src="images/8.jpg" />
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</section>
-											<section
-												class="elementor-section elementor-top-section elementor-element elementor-element-1cb2f028 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-												data-id="1cb2f028" data-element_type="section">
-												<div class="elementor-container elementor-column-gap-default">
-													<div class="elementor-row">
-														<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3da736a6"
-															data-id="3da736a6" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-62f43f80 elementor-widget elementor-widget-image"
-																		data-id="62f43f80" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image"><img
-																					width="500" height="500"
-																					src="images/4.jpg" /> </div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3da736a6"
-															data-id="3da736a6" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-62f43f80 elementor-widget elementor-widget-image"
-																		data-id="62f43f80" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image"><img
-																					width="500" height="500"
-																					src="images/4.jpg" /> </div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3da736a6"
-															data-id="3da736a6" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-62f43f80 elementor-widget elementor-widget-image"
-																		data-id="62f43f80" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image"><img
-																					width="500" height="500"
-																					src="images/4.jpg" /> </div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</section>
+											
+											
 											<section
 												class="elementor-section elementor-top-section elementor-element elementor-element-4c138577 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 												data-id="4c138577" data-element_type="section"
 												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-												<div class="elementor-container elementor-column-gap-default">
-													<div class="elementor-row">
-														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8d3c5a3"
-															data-id="8d3c5a3" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-7868b4f2 elementor-widget elementor-widget-spacer"
-																		data-id="7868b4f2" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-2794633e elementor-widget elementor-widget-heading"
-																		data-id="2794633e" data-element_type="widget"
-																		data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2 class="elementor-heading-title elementor-size-default"> GIMANA DETAILNYA ?</h2>
-																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-14e46e45 elementor-widget elementor-widget-heading" data-id="14e46e45" data-element_type="widget" data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2 class="elementor-heading-title elementor-size-default"> 
-																				Bingkai kami menggunakan bahan dasar kayu, bukan bahan MDF yang mudah berjamur dan mengembang.
-Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingga pemasangan dengan double tape relatif aman*. Ketebalan bingkai lebih tebal 1.5 Cm atau 15 mm. Hasil cetak kami berkualitas tahan air sekalipun disiram air dari depan.
-																				</h2>
-																		</div>
-																		
-																	</div>
-																	<div class="elementor-element elementor-element-14e46e45 elementor-widget elementor-widget-heading" data-id="14e46e45" data-element_type="widget" data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-text-editor elementor-clearfix">
-																				<p style="text-align: center;">*Perhatikan kondisi tembok, kondisi tembok yang tidak luntur</p>
-																			</div>
-																		</div>
-																		
-																	</div>
-																	
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
+												
 											</section>
-											<section
-												class="elementor-section elementor-top-section elementor-element elementor-element-4142c4b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-												data-id="4142c4b6" data-element_type="section">
-												<div class="elementor-container elementor-column-gap-default">
-													<div class="elementor-row">
-														<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3f6aa321"
-															data-id="3f6aa321" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-c70eaae elementor-widget elementor-widget-image"
-																		data-id="c70eaae" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image"><img
-																					width="450" height="450"
-																					src="images/DSC00184-copy.jpg" />
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3f6aa321"
-															data-id="3f6aa321" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
-																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-c70eaae elementor-widget elementor-widget-image"
-																		data-id="c70eaae" data-element_type="widget"
-																		data-widget_type="image.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-image"><img
-																					width="450" height="450"
-																					src="images/DSC00184-copy.jpg" />
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</section>
+											
 											<section
 												class="elementor-section elementor-top-section elementor-element elementor-element-6561d462 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 												data-id="6561d462" data-element_type="section">
@@ -1402,125 +162,58 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 															<div
 																class="elementor-column-wrap elementor-element-populated">
 																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-7421f9c1 elementor-widget elementor-widget-spacer"
-																		data-id="7421f9c1" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-4e25a442 elementor-widget elementor-widget-heading"
-																		data-id="4e25a442" data-element_type="widget"
-																		data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2
-																				class="elementor-heading-title elementor-size-default">
-																				*Cuma Mau Ngasih Tau*</h2>
-																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-370146e3 elementor-widget elementor-widget-heading"
-																		data-id="370146e3" data-element_type="widget"
-																		data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2
-																				class="elementor-heading-title elementor-size-default">
-																				STOK TERBATAS!</h2>
-																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-4636ec01 elementor-widget elementor-widget-spacer"
-																		data-id="4636ec01" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
-																		</div>
-																	</div>
+																	
+																	
 																</div>
 															</div>
 														</div>
 													</div>
 												</div>
 											</section>
-											<section
-												class="elementor-section elementor-top-section elementor-element elementor-element-207f672c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-												data-id="207f672c" data-element_type="section"
-												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+											<section class="elementor-section elementor-top-section elementor-element elementor-element-207f672c elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 												<div class="elementor-container elementor-column-gap-default">
 													<div class="elementor-row">
-														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3395d22e"
-															data-id="3395d22e" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
+														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3395d22e">
+															<div class="elementor-column-wrap elementor-element-populated">
 																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-3db346bd elementor-widget elementor-widget-spacer"
-																		data-id="3db346bd" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-51085a9c elementor-widget elementor-widget-heading"
-																		data-id="51085a9c" data-element_type="widget"
-																		data-widget_type="heading.default">
+																	<div class="elementor-element elementor-element-51085a9c elementor-widget elementor-widget-heading">
 																		<div class="elementor-widget-container">
 																			<h2
 																				class="elementor-heading-title elementor-size-default">
 																				TERTARIK DENGAN PRODUK KAMI?</h2>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-3ae82af9 elementor-widget elementor-widget-heading"
-																		data-id="3ae82af9" data-element_type="widget"
-																		data-widget_type="heading.default">
+																
+																	<div class="elementor-element elementor-element-7c0f62ac elementor-widget elementor-widget-heading">
 																		<div class="elementor-widget-container">
-																			<h2
-																				class="elementor-heading-title elementor-size-default">
-																				BINGKAI FOTO 205315</h2>
+																			<h2 class="elementor-heading-title elementor-size-default">
+																				HARGA NORMAL <br>
+																				<span style='color:red;text-decoration:line-through'>
+																					<span style='color:#ffffff'>200rb</span>
+																				  </span>
+																				  /4pcs	
+																			</h2>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-7c0f62ac elementor-widget elementor-widget-heading"
-																		data-id="7c0f62ac" data-element_type="widget"
-																		data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2
-																				class="elementor-heading-title elementor-size-default">
-																				HARGA NORMAL 200rb</h2>
-																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-5cc1b808 elementor-widget elementor-widget-heading"
-																		data-id="5cc1b808" data-element_type="widget"
-																		data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2
-																				class="elementor-heading-title elementor-size-default">
-																				KHUSUS BUAT HARI INI</h2>
-																		</div>
-																	</div>
+																	
 																	<div class="elementor-element elementor-element-5f8df928 elementor-widget elementor-widget-heading"
 																		data-id="5f8df928" data-element_type="widget"
 																		data-widget_type="heading.default">
 																		<div class="elementor-widget-container">
 																			<h2
 																				class="elementor-heading-title elementor-size-default">
-																				SPESIAL DISC 40%</h2>
+																				SPESIAL DISC 40% <br>
+																				JADI CUMA 99rb /4pcs<BR>
+																				KHUSUS BUAT HARI INI</h2>
 																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-4900b235 elementor-widget elementor-widget-heading"
-																		data-id="4900b235" data-element_type="widget"
-																		data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2
-																				class="elementor-heading-title elementor-size-default">
-																				JADI CUMA 99rb</h2>
-																		</div>
-																	</div>
+																	
+																
 																	<div class="elementor-element elementor-element-116181af elementor-widget elementor-widget-countdown_evergreen"
 																		data-id="116181af" data-element_type="widget"
 																		data-widget_type="countdown_evergreen.default">
@@ -1566,25 +259,16 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 																			</script>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-72d122a6 elementor-widget elementor-widget-text-editor"
-																		data-id="72d122a6" data-element_type="widget"
-																		data-widget_type="text-editor.default">
+																	<div class="elementor-element elementor-element-72d122a6 elementor-widget elementor-widget-text-editor">
 																		<div class="elementor-widget-container">
 																			<div class="elementor-text-editor elementor-clearfix">
 																				<p style="text-align: center;"><span style="color: #ffffff;">*Buruan order, sebelum kembali ke harga normal 200rb</span></p>
 																			</div>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-2990bcc1 elementor-widget elementor-widget-spacer"
-																		data-id="2990bcc1" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
-																	</div>
 																</div>
 															</div>
 														</div>
@@ -1592,41 +276,30 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 												</div>
 											</section>
 											<section
-												class="elementor-section elementor-top-section elementor-element elementor-element-44602e69 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-												data-id="44602e69" data-element_type="section"
-												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												class="elementor-section elementor-top-section elementor-element elementor-element-44602e69 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 												<div class="elementor-container elementor-column-gap-default">
 													<div class="elementor-row">
-														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f34d5c0"
-															data-id="1f34d5c0" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
+														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f34d5c0">
+															<div class="elementor-column-wrap elementor-element-populated">
 																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-6557b97e elementor-widget elementor-widget-spacer"
-																		data-id="6557b97e" data-element_type="widget"
-																		data-widget_type="spacer.default">
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
+																		</div>
+																	<div class="elementor-element elementor-element-10720a17 elementor-widget elementor-widget-heading">
 																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner"> </div>
+																			<h2 class="elementor-heading-title elementor-size-default">NUNGGU APALAGI <br>LANGSUNG AJA ORDER</h2>
+																		</div>
+																		<div class="elementor-widget-container">
+																			<div class="elementor-text-editor elementor-clearfix">
+																				<p style="text-align: center;">Bisa langsung COD via Whatapp, Shopee dan Tokopedia</p>
 																			</div>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-10720a17 elementor-widget elementor-widget-heading" data-id="10720a17" data-element_type="widget" data-widget_type="heading.default">
-																		<div class="elementor-widget-container">
-																			<h2 class="elementor-heading-title elementor-size-default"> JANGAN PAKE LAMA, KEBURU ABIS <br> LANGSUNG AJA ORDER</h2>
-																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-2f096d6 elementor-align-center elementor-widget elementor-widget-button"
-																		data-id="2f096d6" data-element_type="widget"
-																		data-widget_type="button.default">
+																	
+																	<div class="elementor-element elementor-element-2f096d6 elementor-align-center elementor-widget elementor-widget-button">
 																		<div class="elementor-widget-container">
 																			<div class="elementor-button-wrapper">
-																				<a data-fbevent="AddToCart"
-																					data-fbdata="{&quot;source&quot;:&quot;landingpress-button&quot;,&quot;version&quot;:&quot;3.2.1&quot;,&quot;campaign_url&quot;:&quot;2x-mp&quot;,&quot;content_name&quot;:&quot;2x MP&quot;,&quot;value&quot;:&quot;288000&quot;,&quot;currency&quot;:&quot;IDR&quot;}"
-																					href="https://avandr.com/chat/2x-wa/"
-																					target="_blank"
-																					class="elementor-button-link elementor-button elementor-size-md"
-																					role="button">
+																				<a data-fbevent="AddToCart" href="https://avandr.com/chat/2x-wa/" target="_blank" class="elementor-button-link elementor-button elementor-size-md" role="button">
 																					<span class="elementor-button-content-wrapper">
 																						<span class="elementor-button-icon elementor-align-icon-left">
 																							<i aria-hidden="true" class="fab fa-whatsapp"></i>
@@ -1637,65 +310,45 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 																			</div>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-77e1cec elementor-align-center elementor-widget elementor-widget-button"
-																		data-id="77e1cec" data-element_type="widget"
-																		data-widget_type="button.default">
+																	<div class="elementor-element elementor-element-8f0237c elementor-align-center elementor-widget elementor-widget-button">
 																		<div class="elementor-widget-container">
 																			<div class="elementor-button-wrapper">
-																				<a data-fbevent="AddToCart"
-																					data-fbdata="{&quot;source&quot;:&quot;landingpress-button&quot;,&quot;version&quot;:&quot;3.2.1&quot;,&quot;campaign_url&quot;:&quot;2x-mp&quot;,&quot;content_name&quot;:&quot;2x MP&quot;,&quot;value&quot;:&quot;288000&quot;,&quot;currency&quot;:&quot;IDR&quot;}"
-																					href="https://shopee.co.id/AVANDR-2X-Matte-Waist-Bag-Tas-Pria-Medium-Waterproof-Multifungsi-i.423768203.14226620107"
-																					target="_blank"
-																					class="elementor-button-link elementor-button elementor-size-md"
-																					role="button">
+																				<a data-fbevent="AddToCart" href="https://avandr.com/chat/2x-wa/" target="_blank" class="elementor-button-link elementor-button elementor-size-md" role="button">
 																					<span class="elementor-button-content-wrapper">
 																						<span class="elementor-button-icon elementor-align-icon-left">
-																							<i aria-hidden="true" class="fas fa-shopping-cart"></i>
+																							<i aria-hidden="true" class="fab fa-whatsapp"></i>
 																						</span>
-																						<span class="elementor-button-text">DISC 40% DI SHOPEE</span>
+																						<span class="elementor-button-text">DISC 40% DI WHATSAPP</span>
 																					</span>
 																				</a>
 																			</div>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-8f0237c elementor-align-center elementor-widget elementor-widget-button"
-																		data-id="8f0237c" data-element_type="widget"
-																		data-widget_type="button.default">
+																	<div class="elementor-element elementor-element-77e1cec elementor-align-center elementor-widget elementor-widget-button">
 																		<div class="elementor-widget-container">
 																			<div class="elementor-button-wrapper">
-																				<a data-fbevent="AddToCart"
-																					data-fbdata="{&quot;source&quot;:&quot;landingpress-button&quot;,&quot;version&quot;:&quot;3.2.1&quot;,&quot;campaign_url&quot;:&quot;2x-mp&quot;,&quot;content_name&quot;:&quot;2x MP&quot;,&quot;value&quot;:&quot;288000&quot;,&quot;currency&quot;:&quot;IDR&quot;}"
-																					href="https://www.tokopedia.com/avandrofficial/avandr-2x-black-matte-waist-bag-tas-pria-medium-waterproof-multifungsi-black"
-																					target="_blank"
-																					class="elementor-button-link elementor-button elementor-size-md"
-																					role="button">
+																				<a data-fbevent="AddToCart" href="https://avandr.com/chat/2x-wa/" target="_blank" class="elementor-button-link elementor-button elementor-size-md" role="button">
 																					<span class="elementor-button-content-wrapper">
 																						<span class="elementor-button-icon elementor-align-icon-left">
-																							<i aria-hidden="true" class="fas fa-shopping-cart"></i>
+																							<i aria-hidden="true" class="fab fa-whatsapp"></i>
 																						</span>
-																						<span class="elementor-button-text">DISC 40% DI TOKOPEDIA</span>
+																						<span class="elementor-button-text">DISC 40% DI WHATSAPP</span>
 																					</span>
 																				</a>
 																			</div>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-1ba830e7 elementor-widget elementor-widget-text-editor"
-																		data-id="1ba830e7" data-element_type="widget"
-																		data-widget_type="text-editor.default">
+																	
+																	
+																	<div class="elementor-element elementor-element-1ba830e7 elementor-widget elementor-widget-text-editor">
 																		<div class="elementor-widget-container">
 																			<div class="elementor-text-editor elementor-clearfix">
-																				<p style="text-align: center;">*gw produksi ga banyak, sengaja biar GA PASARAN!</p>
+																				<p style="text-align: center;">Cepetan Order sebelum kembali keharga normal</p>
 																			</div>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-48f1abb elementor-widget elementor-widget-spacer"
-																		data-id="48f1abb" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
 																	</div>
 																</div>
@@ -1704,47 +357,25 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 													</div>
 												</div>
 											</section>
-											<section
-												class="elementor-section elementor-top-section elementor-element elementor-element-3c1480a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-												data-id="3c1480a" data-element_type="section"
-												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+											<section class="elementor-section elementor-top-section elementor-element elementor-element-3c1480a elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 												<div class="elementor-container elementor-column-gap-default">
 													<div class="elementor-row">
-														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5fa727da"
-															data-id="5fa727da" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
+														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5fa727da">
+															<div class="elementor-column-wrap elementor-element-populated">
 																<div class="elementor-widget-wrap">
-																	<div class="elementor-element elementor-element-59342fdd elementor-widget elementor-widget-spacer"
-																		data-id="59342fdd" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
-																	</div>
-																	<div class="elementor-element elementor-element-72164c92 elementor-widget elementor-widget-heading"
-																		data-id="72164c92" data-element_type="widget"
-																		data-widget_type="heading.default">
+																	<div class="elementor-element elementor-element-72164c92 elementor-widget elementor-widget-heading">
 																		<div class="elementor-widget-container">
 																			<h2
 																				class="elementor-heading-title elementor-size-default">
-																				GAUSAH RAGU<br>
-																				APA KATA MEREKA TENTANG BRAND KAMI</h2>
+																				APA KATA MEREKA TENTANG PRODUK KAMI</h2>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-5826fd4e elementor-widget elementor-widget-spacer"
-																		data-id="5826fd4e" data-element_type="widget"
-																		data-widget_type="spacer.default">
-																		<div class="elementor-widget-container">
-																			<div class="elementor-spacer">
-																				<div class="elementor-spacer-inner">
-																				</div>
-																			</div>
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
-																	</div>
 																</div>
 															</div>
 														</div>
@@ -1752,15 +383,11 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 												</div>
 											</section>
 											<section
-												class="elementor-section elementor-top-section elementor-element elementor-element-4ffa1470 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-												data-id="4ffa1470" data-element_type="section"
-												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												class="elementor-section elementor-top-section elementor-element elementor-element-4ffa1470 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 												<div class="elementor-container elementor-column-gap-default">
 													<div class="elementor-row">
-														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-108a73b3"
-															data-id="108a73b3" data-element_type="column">
-															<div
-																class="elementor-column-wrap elementor-element-populated">
+														<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-108a73b3">
+															<div class="elementor-column-wrap elementor-element-populated">
 																<div class="elementor-widget-wrap">
 
 
@@ -1794,19 +421,10 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 																			</div>
 																		</div>
 																	</div>
-																	<div class="elementor-element elementor-element-6434c2ab elementor-widget elementor-widget-spacer" data-id="6434c2ab" data-element_type="widget"
-																			data-widget_type="spacer.default">
-																			<div class="elementor-widget-container">
-																				<div class="elementor-spacer">
-																					<div class="elementor-spacer-inner">
-																					</div>
-																				</div>
-																			</div>
+																	<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
-																		<div class="elementor-element elementor-element-72772399 elementor-widget elementor-widget-image"
-																			data-id="72772399"
-																			data-element_type="widget"
-																			data-widget_type="image.default">
+																		<div class="elementor-element elementor-element-72772399 elementor-widget elementor-widget-image">
 																			<div class="elementor-widget-container">
 																				<div class="elementor-image">
 																					<img width="488" height="64"
@@ -1814,80 +432,26 @@ Pemasangan bisa mengunakan paku dan double tape. Bahan frame kami ringan sehingg
 																				</div>
 																			</div>
 																		</div>
-																		<div class="elementor-element elementor-element-87ce38c elementor-widget elementor-widget-heading"
-																			data-id="87ce38c" data-element_type="widget"
-																			data-widget_type="heading.default">
+																		<div class="elementor-element elementor-element-87ce38c elementor-widget elementor-widget-heading">
 																			<div class="elementor-widget-container">
 																				<h2
 																					class="elementor-heading-title elementor-size-default">
-																					KAMI MENJUAL PRODUK YANG HIGHCLASS &
-																					BERKUALITAS DENGAN HARGA YANG BISA
+																					KAMI MENJUAL PRODUK YANG BERKUALITAS DENGAN HARGA YANG BISA
 																					DIJANGKAU</h2>
 																			</div>
 																		</div>
-																		<div class="elementor-element elementor-element-124961fd elementor-widget elementor-widget-image"
-																			data-id="124961fd"
-																			data-element_type="widget"
-																			data-widget_type="image.default">
-																			<div class="elementor-widget-container">
-																				<div class="elementor-image"><img
-																						width="300" height="100"
-																						src="images/1200px-100_Cinta_Indonesia_Logo.svg-300x100.png" />
-																				</div>
-																			</div>
+																	
+																		
+																		
+																		<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer">
+																		<!--SPACERRRRRR-->	
 																		</div>
-																		<div class="elementor-element elementor-element-736b05d1 elementor-widget elementor-widget-image"
-																			data-id="736b05d1"
-																			data-element_type="widget"
-																			data-widget_type="image.default">
-																			<div class="elementor-widget-container">
-																				<div class="elementor-image">
-																					<img width="294" height="300" src="images/bangga-buatan-indo-294x300.jpeg" />
-																				</div>
-																			</div>
-																		</div>
-																		<div class="elementor-element elementor-element-2c64a504 elementor-widget elementor-widget-heading"
-																			data-id="2c64a504"
-																			data-element_type="widget"
-																			data-widget_type="heading.default">
-																			<div class="elementor-widget-container">
-																				<h2 class="elementor-heading-title elementor-size-default"> YUK SUPPORT PRODUK LOKAL! LEBIH KEREN!</h2>
-																			</div>
-																		</div>
-																		<div class="elementor-element elementor-element-4723187c elementor-widget elementor-widget-spacer"
-																			data-id="4723187c"
-																			data-element_type="widget"
-																			data-widget_type="spacer.default">
-																			<div class="elementor-widget-container">
-																				<div class="elementor-spacer">
-																					<div class="elementor-spacer-inner">
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="elementor-element elementor-element-2845ca6c elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-																			data-id="2845ca6c"
-																			data-element_type="widget"
-																			data-widget_type="divider.default">
-																			<div class="elementor-widget-container">
-																				<div class="elementor-divider">
-																					<span
-																						class="elementor-divider-separator">
-																					</span>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="elementor-element elementor-element-2933880e elementor-widget elementor-widget-text-editor"
-																			data-id="2933880e"
-																			data-element_type="widget"
-																			data-widget_type="text-editor.default">
+																		
+																		<div class="elementor-element elementor-element-2933880e elementor-widget elementor-widget-text-editor">
 																			<div class="elementor-widget-container">
 																				<div
 																					class="elementor-text-editor elementor-clearfix">
-																					<div class="elementor-element elementor-element-4097d7e elementor-widget elementor-widget-text-editor"
-																						data-id="4097d7e"
-																						data-element_type="widget"
-																						data-widget_type="text-editor.default">
+																					<div class="elementor-element elementor-element-4097d7e elementor-widget elementor-widget-text-editor">
 																						<div
 																							class="elementor-widget-container">
 																							<div
