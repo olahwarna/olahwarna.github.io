@@ -578,7 +578,7 @@
         font-family: "Roboto", Sans-serif;
         font-size: 25px;
         font-weight: 600;
-        line-height: 1.5em;
+        line-height: 1.2em;
     }
 
     .elementor-2454 .elementor-element.elementor-element-52e61fdc .elementor-button {
@@ -677,6 +677,7 @@
         font-weight: 600;
         line-height: 1.5em;
     }
+    
 
     .elementor-2454 .elementor-element.elementor-element-78d4085b {
         font-family: "Roboto", Sans-serif;
@@ -768,7 +769,7 @@
     .elementor-2454 .elementor-element.elementor-element-7c0f62ac .elementor-heading-title {
         color: #FFFFFF;
         font-family: "Roboto", Sans-serif;
-        font-size: 52px;
+        font-size: 40px;
         font-weight: 600;
     }
 
@@ -843,6 +844,9 @@
     .elementor-2454 .elementor-element.elementor-element-44602e69>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #dde8fd;
     }
+    .iman {
+        border-radius: 50%;
+    }
 
     .elementor-2454 .elementor-element.elementor-element-44602e69 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -868,23 +872,41 @@
     }
 
     .elementor-2454 .elementor-element.elementor-element-2f096d6 .elementor-button {
-        background-color: #237E00;
+        background-color: #ff0000;
+        min-width: 65%;
+    }
+    .merah {
+        color: #ff0000;
+        font-family: "Roboto", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35px;
+        padding: 0;
+    }
+    .imanbawah {
+        margin: 0px;
+        padding: 0px;
     }
 
     .elementor-2454 .elementor-element.elementor-element-77e1cec .elementor-button {
-        background-color: #FFA908;
+        background-color: #fa5230;
+        min-width: 65%;
     }
 
     .elementor-2454 .elementor-element.elementor-element-8f0237c .elementor-button {
         background-color: #3DD303;
+        min-width: 65%;
     }
 
     .elementor-2454 .elementor-element.elementor-element-1ba830e7 {
         font-family: "Roboto", Sans-serif;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
     }
-
+    .keterangan {
+        font-size: 14px;
+        line-height: 18px;
+    }
     .elementor-2454 .elementor-element.elementor-element-48f1abb .elementor-spacer-inner {
         --spacer-size: 10px;
     }
@@ -993,6 +1015,10 @@
             font-size: 28px;
             line-height: 1.3em;
         }
+        .elementor-2454 .elementor-element.elementor-element-562174aa .elementor-heading-title-iman {
+            font-size: 28px;
+            line-height: 0;
+        }
 
         .elementor-2454 .elementor-element.elementor-element-58ea06d1 {
             font-size: 13px;
@@ -1025,7 +1051,7 @@
         }
 
         .elementor-2454 .elementor-element.elementor-element-1ba830e7 {
-            font-size: 13px;
+            font-size: 18px;
         }
 
         .elementor-2454 .elementor-element.elementor-element-87ce38c .elementor-heading-title {
